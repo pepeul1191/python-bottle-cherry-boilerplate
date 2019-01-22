@@ -38,5 +38,7 @@ Arrancer aplicación con servidor GreenUnicorn:
 
 Fuentes:
 
-+ https://github.com/pepeul1191/flask-boilerplate-v2
++ https://bottlepy.org/docs/dev/deployment.html
 + https://www.pylint.org/#install
++ https://bottlepy.org/docs/dev/
++ https://github.com/pepeul1191/python-accesos-v2
