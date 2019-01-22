@@ -42,3 +42,4 @@ Fuentes:
 + https://www.pylint.org/#install
 + https://bottlepy.org/docs/dev/
 + https://github.com/pepeul1191/python-accesos-v2
++ https://stackoverflow.com/questions/31080214/python-bottle-always-logs-to-console-no-logging-to-file
