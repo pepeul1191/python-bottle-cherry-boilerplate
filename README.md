@@ -20,15 +20,6 @@ Arrancar aplicación con servidor Werkzeug:
     $ pip install -r requirements.txt
     $ python app.py
 
-Arrancer aplicación con servidor GreenUnicorn:
-
-    $ cd <<carpeta-proyecto>>
-    $ pip install -r requirements.txt
-    # Sin logs ni reload
-    $ gunicorn app:app -w 6 -b 0.0.0.0:3000
-    # Con logs y reload
-    $ gunicorn app:app -w 6 -b 0.0.0.0:3000 --reload --access-logfile -
-
 ### PyLint
 
     $ pylint <archivo>.py --reports=yes
