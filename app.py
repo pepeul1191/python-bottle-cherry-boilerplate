@@ -4,6 +4,7 @@
 from bottle import Bottle, template, run
 from configs.middlewares import logs, headers
 from routes.demo import route as _demo
+from routes.error import route as _error
 
 app = Bottle()
 # install middlewares
@@ -19,6 +20,7 @@ def hello(name):
 if __name__ == '__main__':
     # routes
     app.mount('/demo', _demo)
+    app.mount('/error', _error)
     # start app
     run(
         app,

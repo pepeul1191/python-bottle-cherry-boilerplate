@@ -11,7 +11,6 @@ route.install(logs)
 route.install(headers)
 
 
-@headers
 @route.route('/api', method='GET')
 def listar():
     rpta = None
